@@ -213,7 +213,8 @@ button:hover{
     margin-right: 20px;
     padding: 30px;
     width: 40vw;
-    height: 400px;
+    height: 360px;
+    /* height: 48vh; */
     border-radius: 20px;
     box-sizing: border-box;
     border: 2px solid #03cd6b;
@@ -866,7 +867,6 @@ footer{
     .social{
         display: grid;
         grid-template-columns: auto auto auto;
-        /* padding: 5px; */
         margin: 10px;
     }
     #footer-3-columns{
@@ -947,6 +947,13 @@ footer{
     }
     .name{
         font-size: 16px;
+    }
+    .project-btn{
+        margin-top: -30px;
+        margin-left: 23px;
+    }
+    .btn{
+        font-size: 11px;
     }
 }
 @media screen and (max-width: 352px){
@@ -1095,7 +1102,6 @@ footer{
         display: none;
     }
     #contact-box{
-        /* height: 100vh; */
         margin-left: 10px;
         margin-top: 250px;
     }
