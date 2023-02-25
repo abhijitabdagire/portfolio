@@ -1098,17 +1098,31 @@ footer{
     #Contact{
         height: 100vh;
     }
-    .footer{
+    /* .footer{
         display: none;
-    }
-    #contact-box{
-        margin-left: 10px;
-        margin-top: 250px;
+    } */
+    .contact-page-height{
+        margin-top: 150px;
     }
     .container{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+    }
+}
+@media screen and (max-height: 580px){
+    .main{
+        height: 100vh;
+    }
+    #About-border{
+        width: 50vw;
+        height: 60vh;
+    }
+    #My-Photo {
+        height: 62vh;
+    }
+    #Contact{
+        height: 100vh;
     }
 }
