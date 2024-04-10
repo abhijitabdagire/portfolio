@@ -338,7 +338,7 @@ a{
 .project-card {
   width: 90%;
   height: 550px;
-  background-image: url(./Projects/Project1.png);
+  background-image: url(Projects/Project1.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -462,17 +462,17 @@ a{
 }
 
 #project1 {
-  background-image: url(/Images/Projects/project1.1.png);
+  background-image: url(Images/Projects/project1.1.png);
 }
 #project2 {
-  background-image: url(/Images/Projects/Project2.png);
+  background-image: url(Images/Projects/Project2.png);
   margin-left: 120px;
 }
 #project3 {
-  background-image: url(/Images/Projects/project\ 3.3.png);
+  background-image: url(Images/Projects/project\ 3.3.png);
 }
 #project4 {
-  background-image: url(/Images/Projects/project4.4.png);
+  background-image: url(Images/Projects/project4.4.png);
   margin-left: 120px;
 }
 
